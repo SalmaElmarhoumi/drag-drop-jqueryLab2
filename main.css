@@ -1,0 +1,29 @@
+#draggable {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 50px; /* Adjust the distance from the right edge */
+  top: 90px; /* Adjust the distance from the top */
+  z-index: 1;
+}
+
+#draggable img {
+  width: 150px;
+  margin-right: 80px;
+}
+
+#black-hole {
+  width: 900px;
+  position: absolute;
+  left: 30px; /* Adjust the distance from the left edge */
+  top: 30px; /* Adjust the distance from the top */
+}
+
+#black-hole img{
+  background: none;
+  border-radius: 60%;
+  width: 200px;
+  height: 200px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
